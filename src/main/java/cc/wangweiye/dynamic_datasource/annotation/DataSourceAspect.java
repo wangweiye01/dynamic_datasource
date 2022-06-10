@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 import java.lang.reflect.Method;
 
 @Aspect
-//优先级设置到最高
+//优先级要设置在事务切面执行之前
 @Order(1)
 @Component
 @Slf4j
